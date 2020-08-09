@@ -15,7 +15,7 @@ public class GreetingController {
 
     public String sayHello() {
         String greeting = helloWorldService.getGreeting();
-        System.out.printf(greeting);
+        System.out.println(greeting);
         return greeting;
     }
 }
