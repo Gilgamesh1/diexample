@@ -12,7 +12,7 @@ public class HelloWorldServiceFactory {
                 helloWorldService = new HelloWorldServiceSpanishImpl();
                 break;
             case "fr":
-                new HelloWorldServiceFrenchImpl();
+                helloWorldService = new HelloWorldServiceFrenchImpl();
                 break;
             case "pl":
                 helloWorldService = new HelloWorldServicePolishImpl();
